@@ -1,0 +1,62 @@
+<div a></div>
+<div c>
+    <p m>
+</div>
+<div>
+    <p l>
+    <p r>
+        <style>
+            * {
+                background: #30383F
+            }
+
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center
+            }
+
+            div {
+                background: #5AA4B7;
+                height: 100;
+                width: 100;
+                border-radius: 50%
+            }
+
+            [c] {
+                height: 60;
+                width: 60;
+                background: #FFF;
+                border: 20px solid #5AA4B7
+            }
+
+            p {
+                height: 36;
+                background: #FFF;
+                width: 200;
+                margin-left: -40
+            }
+
+            [m] {
+                z-index: -1;
+                margin-top: 12
+            }
+
+            [a] {
+                z-index: 2
+            }
+
+            [l],
+            [r] {
+                position: absolute;
+                left: 0;
+                top: 116;
+                width: 158;
+                z-index: 2;
+                border-radius: 90q
+            }
+
+            [r] {
+                rotate: 180deg;
+                left: 322
+            }
